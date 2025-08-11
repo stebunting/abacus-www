@@ -1,0 +1,55 @@
+{
+  "name": "abacus-www",
+  "version": "1.0.0",
+  "description": "Abacus Server Website",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stebunting/abacus-www.git"
+  },
+  "main": "src/index.tsx",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development",
+    "eslint:check": "eslint src",
+    "eslint:fix": "eslint src --fix",
+    "prettier:check": "prettier . --check",
+    "prettier:fix": "prettier . --write",
+    "test": "jest"
+  },
+  "author": "Steve Bunting",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@teamsupercell/typings-for-css-modules-loader": "^2.5.2",
+    "@types/jest": "^30.0.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "@types/webpack": "^5.28.5",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^16.3.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^30.0.5",
+    "jiti": "^2.5.1",
+    "mini-css-extract-plugin": "^2.9.4",
+    "prettier": "^3.6.2",
+    "react-router-dom": "^7.8.0",
+    "sass": "^1.90.0",
+    "sass-loader": "^16.0.5",
+    "ts-jest": "^29.4.1",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.0",
+    "webpack": "^5.101.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
