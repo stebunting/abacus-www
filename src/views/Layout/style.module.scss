@@ -1,0 +1,46 @@
+.page {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  padding: 1rem 4rem;
+}
+
+header,
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  flex-grow: 1;
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 1rem 2rem 0;
+}
+
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1;
+
+  animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
