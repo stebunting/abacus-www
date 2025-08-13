@@ -2,11 +2,18 @@
   justify-content: center;
   align-items: center;
 
-  .register {
-    font-size: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+
+  button.register {
+    font-size: 0.8rem;
   }
 
   .server {
-    width: 80%;
+    max-width: 100%;
+    height: auto;
+
+    padding: 4rem 0;
   }
 }

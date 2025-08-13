@@ -1,0 +1,39 @@
+@use "~/styles/global.scss" as master;
+
+.tag {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Michroma", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    font-size: 1rem;
+    text-align-last: justify;
+    color: #505050;
+  }
+
+  @media (min-width: master.$tablet) {
+    h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}

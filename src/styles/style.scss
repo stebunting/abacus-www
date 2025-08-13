@@ -9,17 +9,15 @@ body {
   margin: 0;
   padding: 0;
 
+  font-size: 16px;
+  background: #e0e0e0;
+
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  width: 100%;
-
-  font-weight: bold;
-  font-size: 3rem;
+h2 {
+  font-size: 1.45rem;
+  font-variant: small-caps;
 
   margin: 0;
   padding: 0;
@@ -47,7 +45,7 @@ ul {
 button {
   padding: 1rem 2rem;
   border-radius: 10px;
-  border-width: 1px;
+  border: 1px #505050 solid;
   margin: 1rem 0;
 
   a:hover {
@@ -55,7 +53,7 @@ button {
   }
 
   &:hover {
-    background: rgb(225, 175, 38);
+    background: master.$yellow;
     cursor: pointer;
   }
 }
